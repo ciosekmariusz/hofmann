@@ -1,0 +1,127 @@
+body{
+font-family: 'Ubuntu Mono';
+background-image:url('../img/papier.jpg');
+-moz-background-image:url('../img/papier.jpg');
+margin:2%;
+box-sizing:border-box;
+text-align:justify;
+font-size:120%;
+}
+.float{
+float:left;
+width:46%;
+margin: 1%;
+padding:1%;
+}
+.clear{
+clear:both
+}
+ul li li{
+display:inline-block;padding:2px;
+}
+footer{
+background-color:#dd4814;
+}
+header {
+border:2px solid #dd4814;
+}
+header > div > q{font-family: 'Italianno', cursive;
+ font-size:150%; float:right; display:inline-block;
+ }
+ 
+ h4 {display:block;padding:1%;border-bottom:1px dotted gray}
+ footer i a{color:#000000;text-shadow:none;padding:none !important;background-color:#dd4814 !important}
+ footer i a:hover{color:#ffffff}
+ div p{text-indent:10%}
+ a:hover {color:#dd4814}
+ .float-img {float:left; margin-right:2%}
+ iframe{max-width:100%!important; display:block; max-height:100%}
+sub {font-family:'Ubuntu Mono'; font-size:16px!important;}
+ #motto {margin-top:3%;}
+ .head {width:49%; float:left}
+ header > div > p {float:right; display:inline-block; color:gray; text-align:left!important}
+header > div > h2 {letter-spacing:2px; text-shadow:3px 3px 3px gray;text-align:center}
+#menu {list-style-type:none}
+footer > a:hover{color:#dd4814}
+@media only screen and (min-width:100px) and (max-width:640px) {
+.float, .head{clear:both; width:97%; margin-right:2%;}
+ul li li{display:block; width:100%; text-align:left;}
+body {font-size: 100%}
+ul > li > ul{display:none;}
+ul > li:hover > ul {display:block}
+sub {font-size:80%;display:}
+#menu > a{padding:1%}
+}
+@media only screen and (min-width:641px) and (max-width:2000px) {
+#menu >a{display:none}
+}
+
+a{text-decoration:none; color:gray; text-shadow:1px 1px 0px black; background-color:#ffffff}
+h2 {display:inline-block; position:relative;}
+h2 > span {display:inline-block;
+animation: texth 5s linear infinite;}
+@keyframes texth {
+  0% { transform:rotate(0);}
+  10% { transform:rotate(360deg);}
+  100% { transform:rotate(360deg);}
+}
+@webkit keyframes texth{
+0% {transform:rotate(0); }
+10% {transform:rotate(360deg); }
+100% {transform:rotate(360deg); }
+}
+ #a {
+        animation-delay:250ms;
+        -webkit-animation-delay:250ms;
+      }
+
+  #b {
+        animation-delay:500ms;
+        -webkit-animation-delay:500ms;
+      }
+
+  #c {
+        animation-delay:750ms;
+        -webkit-animation-delay:750ms;
+      }
+      
+  #d  {
+        animation-delay:1000ms;
+        -webkit-animation-delay:1000ms;
+      }
+
+   #e {
+        animation-delay:1250ms;
+        -webkit-animation-delay:1250ms;
+      }
+
+    #f {
+        animation-delay:1500ms;
+        -webkit-animation-delay:1500ms;
+      }
+
+    #g {
+        animation-delay:1750ms;
+        -webkit-animation-delay:1750ms;
+      }
+      
+      #h {
+        animation-delay:2000ms;
+        -webkit-animation-delay:2000ms;
+      }
+
+   #i {
+        animation-delay:2250ms;
+        -webkit-animation-delay:2250ms;
+      }
+
+    #j {
+        animation-delay:2500ms;
+        -webkit-animation-delay:2500ms;
+      }
+
+    #k {
+        animation-delay:2750ms;
+        -webkit-animation-delay:2750ms;
+        }
+        
